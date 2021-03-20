@@ -1,0 +1,43 @@
+{
+  "name": "newdestination",
+  "version": "1.0.0",
+  "description": "New Destination Public School, Palampur",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-vinayak252/NewDestination.git"
+  },
+  "keywords": [
+    "School",
+    "destination",
+    "education",
+    "palampur",
+    "students",
+    "learning"
+  ],
+  "author": "Vinayak Sharma",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/dev-vinayak252/NewDestination/issues"
+  },
+  "homepage": "https://github.com/dev-vinayak252/NewDestination#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.1"
+  }
+}
